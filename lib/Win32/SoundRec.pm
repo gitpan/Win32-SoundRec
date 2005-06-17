@@ -6,7 +6,7 @@ use warnings;
 use Win32::API::Prototype;
 
 use vars qw ($VERSION);
-$VERSION     = 0.01;
+$VERSION     = 0.02;
 
 BEGIN
 {
@@ -222,7 +222,7 @@ You can email the author for support on this module.
     
 =head1 COPYRIGHT
 
-Copyright (c) 2003 Jouke Visser. All rights reserved.
+Copyright (c) 2003-2005 Jouke Visser. All rights reserved.
 This program is free software; you can redistribute
 it and/or modify it under the same terms as Perl itself.
 

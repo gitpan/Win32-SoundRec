@@ -5,7 +5,13 @@ on Win32 platforms.
 
 PREREQUISITES
 
-An MCI compatible soundcard
+An MCI compatible soundcard to be able to record anything.
+You also need the module Win32::API::Prototype, which many people can't 
+find. Therefore this link: http://search.cpan.org/~daveroth/Win32-API-Prototype/
+This is where you can install the module from.
+You can also install the PPM version of this module like this:
+
+ppm install http://www.roth.net/perl/packages/win32-api-prototype.ppd
 
 INSTALL
 
@@ -30,7 +36,7 @@ http://jouke.pvoice.org
 
 COPYRIGHT
 
-Copyright (c) 2003 Jouke Visser. All rights reserved. This program is
+Copyright (c) 2003-2005 Jouke Visser. All rights reserved. This program is
 free software; you can redistribute it and/or modify it under the same
 terms as Perl itself.
 
